@@ -18,7 +18,7 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(/* TODO: SETUP GLOBAL VAR TO BASE URL */),
+  history: createWebHistory('pokedex-vue-spa-public'),
   routes,
 });
 
